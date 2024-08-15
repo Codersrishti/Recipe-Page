@@ -1,0 +1,101 @@
+body{
+    background-color: #f3e6d8;
+    color: black;
+}
+div.container{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+img{
+    width: 100%;
+    max-width: 630px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-top: 20px;
+    height: 300px;
+    background-size: cover;
+}
+h1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+p.head{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div.prep-time{
+   background-color:  #f3e6d8;
+   padding: 10px 0 10px 0;
+   border-radius: 10px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.prep-time h3{
+    color: #7B284f;
+    padding-left: 30px;
+}
+.ingredients, .instructions, .nutrition{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ol li::marker {
+    color: #854632;
+    font-weight: 700;
+}
+ol, ul{
+    padding-left: 20px;
+}
+.prep-time ul {
+    padding-left: 50px;
+}
+ol li, ul li{
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+h2{
+    color: #854632;
+}
+p.nut{
+    padding-left: 3px;
+}
+.nutrition-table{
+    width: 100%;
+    border-spacing: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+td {
+    padding: 1rem;
+}
+.bold{
+    font-weight: 900;
+    color: #854632;
+}
+hr {
+    display: block;
+    height: 1px;
+    width: 90%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+div.attr{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    padding-bottom: 30px;
+    text-align: center;
+}
